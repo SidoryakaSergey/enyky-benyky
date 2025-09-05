@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "celebrity": "Celebrity Dubbing",
+    "portfolio": "Our Work",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "welcome": "Welcome to «Enyky-Benyky»!",
+    "description": "For many years we have been dubbing, voice-over, localizing feature and documentary films, trailers and series. From English, French, Spanish, Portuguese, Polish and Turkish languages. We create and record commercials, radio programs, etc.",
+    "talent": "Experienced talents, the best of the best.",
+    "readMore": "Read More"
+  },
+  "about": {
+    "title": "About Us",
+    "studio": "Our studio is located in Kyiv on Podil. Here are gathered professionals with many years of experience. Translators, directors, sound engineers who work subtly and sensitively with the material. We welcome actors and announcers who can be heard daily in the cinema, on television, on the radio, in films, in advertising and in various shows.",
+    "quality": "Ultimately, we make a high-quality product, both creatively and technically.",
+    "hours": "Hundreds and thousands of voiced hours for cinemas, OTT platforms, television and radio.",
+    "showbiz": "Our highlight is cooperation with Ukrainian show business. Our films were dubbed by singers, public figures, comedians and even politicians.",
+    "approach": "We are used to carefully listening to the customer's idea and try to do everything to make him satisfied.",
+    "budget": "We can boast of being able to do generous work for reasonable money."
+  },
+  "services": {
+    "title": "Services",
+    "intro": "If you need localization of a movie trailer, film, series or creating an advertising audio clip, we will be happy to help. What can we offer?",
+    "voiceover": {
+      "title": "VOICEOVER",
+      "description": "video voice-over. When the original sound is heard and the translation is on top in 1, 2, 4, 6 or more voices. The most budget-friendly, fast and popular type of sound work."
+    },
+    "dubvoice": {
+      "title": "DUB+VOICEOVER",
+      "description": "something between regular voice-over and dubbing. Among professionals, this type got nicknames 'dub-voice', 'voice-dub' or 'lazy' dubbing. Phrases are 90%+ lip-sync, i.e. synchronous with the character on screen. The original voice is either not heard at all, or very far away. In fact, this is dubbing, but with a less careful approach to intonation, acting, sound effects and minimal sound design."
+    },
+    "dubbing": {
+      "title": "DUBBING",
+      "description": "full multi-voice dubbing. The kind we are used to hearing in the cinema. Dolby Digital 5.1"
+    },
+    "dcp": {
+      "title": "DCP",
+      "description": "video rendering into a digital cinema package for playback in cinemas."
+    },
+    "advertising": {
+      "title": "ADVERTISING",
+      "description": "from creating advertising text to a finished mixed soundtrack."
+    },
+    "complex": {
+      "title": "COMPLEX TEXTS",
+      "description": "medical, chemical, legal, historical and other specialized topics."
+    },
+    "additional": {
+      "title": "ADDITIONAL SERVICES",
+      "description": "Translations to/from various languages, subtitling, transcription, digital menu and more."
+    }
+  },
+  "celebrity": {
+    "title": "Celebrity Dubbing",
+    "description": "We have access to virtually any representative of Ukrainian show business. Musicians, comedians, public figures, TV presenters. Dmitry Kuleba, Elena Kravets, Oleg Skrypka and others have dubbed films at our studio..."
+  },
+  "portfolio": {
+    "title": "Our Work"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "visit": "Visit Us!",
+    "approach": "We treat each order with all respect and seriousness. We are flexible and positive. We will definitely fit into any budget and guarantee a comprehensive approach and quality result.",
+    "address": "Address: Kyiv, Vikentia Khvoiky 15/15",
+    "email": "info@enykybenyky.com.ua",
+    "phone": "+38 067 268 17 17"
+  },
+  "footer": {
+    "clients": "Our Clients"
+  }
+}

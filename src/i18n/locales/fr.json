@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "celebrity": "Doublage de célébrités",
+    "portfolio": "Nos travaux",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "welcome": "Bienvenue chez «Enyky-Benyky»!",
+    "description": "Depuis de nombreuses années, nous doublons, faisons du voice-over, localisons des films de fiction et documentaires, bandes-annonces et séries. De l'anglais, français, espagnol, portugais, polonais et turc. Nous créons et enregistrons des publicités, des programmes radio, etc.",
+    "talent": "Des talents expérimentés, les meilleurs des meilleurs.",
+    "readMore": "En savoir plus"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "studio": "Notre studio est situé à Kiev sur Podil. Ici se sont rassemblés des professionnels avec de nombreuses années d'expérience. Traducteurs, réalisateurs, ingénieurs du son qui travaillent avec subtilité et sensibilité sur le matériel. Nous accueillons des acteurs et des annonceurs qu'on peut entendre quotidiennement au cinéma, à la télévision, à la radio, dans les films, dans la publicité et dans diverses émissions.",
+    "quality": "Au final, nous créons un produit de haute qualité, tant sur le plan créatif que technique.",
+    "hours": "Des centaines et des milliers d'heures doublées pour les cinémas, plateformes OTT, télévision et radio.",
+    "showbiz": "Notre point fort est la coopération avec le show-business ukrainien. Nos films ont été doublés par des chanteurs, des personnalités publiques, des comédiens et même des politiciens.",
+    "approach": "Nous avons l'habitude d'écouter attentivement l'idée du client et essayons de tout faire pour qu'il soit satisfait.",
+    "budget": "Nous pouvons nous vanter de pouvoir faire un travail généreux pour un prix raisonnable."
+  },
+  "services": {
+    "title": "Services",
+    "intro": "Si vous avez besoin de localisation d'une bande-annonce de film, d'un film, d'une série ou de création d'un clip audio publicitaire, nous serons heureux de vous aider. Que pouvons-nous offrir?",
+    "voiceover": {
+      "title": "VOICEOVER",
+      "description": "voice-over vidéo. Quand le son original est entendu et la traduction par-dessus en 1, 2, 4, 6 voix ou plus. Le type de travail sonore le plus économique, rapide et populaire."
+    },
+    "dubvoice": {
+      "title": "DUB+VOICEOVER",
+      "description": "quelque chose entre le voice-over normal et le doublage. Parmi les professionnels, ce type a reçu les surnoms 'dub-voice', 'voice-dub' ou doublage 'paresseux'. Les phrases sont synchronisées à 90%+, c'est-à-dire synchrones avec le personnage à l'écran. La voix originale n'est soit pas entendue du tout, soit très loin. En fait, c'est du doublage, mais avec une approche moins attentive à l'intonation, au jeu d'acteur, aux effets sonores et un minimum de design sonore."
+    },
+    "dubbing": {
+      "title": "DUBBING",
+      "description": "doublage multi-voix complet. Le genre que nous avons l'habitude d'entendre au cinéma. Dolby Digital 5.1"
+    },
+    "dcp": {
+      "title": "DCP",
+      "description": "rendu vidéo en package cinéma numérique pour lecture dans les cinémas."
+    },
+    "advertising": {
+      "title": "PUBLICITÉ",
+      "description": "de la création de texte publicitaire à une bande sonore mixée finie."
+    },
+    "complex": {
+      "title": "TEXTES COMPLEXES",
+      "description": "sujets médicaux, chimiques, juridiques, historiques et autres spécialisés."
+    },
+    "additional": {
+      "title": "SERVICES SUPPLÉMENTAIRES",
+      "description": "Traductions vers/depuis diverses langues, sous-titrage, transcription, menu numérique et plus."
+    }
+  },
+  "celebrity": {
+    "title": "Doublage de célébrités",
+    "description": "Nous avons accès à pratiquement tout représentant du show-business ukrainien. Musiciens, comédiens, personnalités publiques, présentateurs TV. Dmitry Kuleba, Elena Kravets, Oleg Skrypka et d'autres ont doublé des films dans notre studio..."
+  },
+  "portfolio": {
+    "title": "Nos travaux"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "visit": "Visitez-nous!",
+    "approach": "Nous traitons chaque commande avec tout le respect et le sérieux. Nous sommes flexibles et positifs. Nous nous adapterons certainement à n'importe quel budget et garantissons une approche globale et un résultat de qualité.",
+    "address": "Adresse: Kiev, Vikentia Khvoiky 15/15",
+    "email": "info@enykybenyky.com.ua",
+    "phone": "+38 067 268 17 17"
+  },
+  "footer": {
+    "clients": "Nos clients"
+  }
+}

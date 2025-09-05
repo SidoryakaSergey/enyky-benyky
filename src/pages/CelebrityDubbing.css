@@ -1,0 +1,162 @@
+/* Celebrity Dubbing Page Styles */
+.celebrity-dubbing {
+  padding: 2rem 0 4rem;
+}
+
+.celebrity-intro {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.celebrities-showcase {
+  margin: 4rem 0;
+}
+
+.celebrities-showcase h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+}
+
+.celebrities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.celebrity-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.celebrity-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.celebrity-image {
+  height: 200px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.celebrity-image .image-placeholder {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.celebrity-info {
+  padding: 1.5rem;
+}
+
+.celebrity-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.celebrity-info p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.celebrity-services {
+  margin: 4rem 0;
+}
+
+.celebrity-services .services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.service-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.celebrity-cta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 4rem 2rem;
+  margin: 4rem 0 0;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.celebrity-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.celebrity-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.celebrity-cta .cta-button {
+  background: white;
+  color: #667eea;
+  font-weight: 700;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .celebrities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .celebrity-services .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .celebrity-cta {
+    margin: 3rem -20px 0;
+    border-radius: 0;
+  }
+
+  .celebrity-cta h2 {
+    font-size: 2rem;
+  }
+}
