@@ -68,7 +68,7 @@ export const Contacts: React.FC = () => {
             <div className="map-container">
               <div className="map-placeholder">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.8231648586947!2d30.516181815674214!3d50.47421797947481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce581c4a7a45%3A0x7c1a1b1c1a1b1c1a!2sVikentiya%20Khvoyki%20St%2C%2015%2F15%2C%20Kyiv%2C%20Ukraine%2C%2004071!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2287665!2d30.5146!3d50.472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce4a4f4b4c4d%3A0x1a2b3c4d5e6f7a8b!2z0LLRg9C70LjRhtGPINCS0ZbQutC10L3RgtGW0Y8g0KXQstC-0LnQutC4LCAxNS8xNSwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}

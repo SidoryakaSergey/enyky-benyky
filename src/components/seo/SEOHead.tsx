@@ -260,12 +260,13 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
         '@type': 'PostalAddress',
         streetAddress: 'Vikentia Khvoiky 15/15',
         addressLocality: 'Kyiv',
+        postalCode: '02000',
         addressCountry: 'UA',
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: '50.4659',
-        longitude: '30.5132',
+        latitude: '50.472',
+        longitude: '30.5146',
       },
       openingHours: 'Mo-Fr 09:00-18:00',
       serviceArea: {
