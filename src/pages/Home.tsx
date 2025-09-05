@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { SEOHead } from '../components/SEOHead';
-import './Home.css';
+import { SEOHead } from '../components/seo/SEOHead';
+import './/../styles/pages/Home.css';
 
 export const Home: React.FC = () => {
   const { t } = useTranslation();

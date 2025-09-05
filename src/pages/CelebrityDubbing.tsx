@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { SEOHead } from '../components/SEOHead';
-import './CelebrityDubbing.css';
+import { SEOHead } from '../components/seo/SEOHead';
+import './/../styles/pages/CelebrityDubbing.css';
 
 export const CelebrityDubbing: React.FC = () => {
   const { t } = useTranslation();

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo3 from '../assets/logos/logo3.jpg';
-import './LogoSelector.css';
+import logo3 from './../../assets/logos/logo3.jpg';
+import './../../styles/components/LogoSelector.css';
 
 export const LogoSelector: React.FC = () => {
   return (

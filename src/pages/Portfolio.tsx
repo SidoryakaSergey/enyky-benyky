@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { SEOHead } from '../components/SEOHead';
-import './Portfolio.css';
+import { SEOHead } from '../components/seo/SEOHead';
+import './/../styles/pages/Portfolio.css';
 
 export const Portfolio: React.FC = () => {
   const { t } = useTranslation();

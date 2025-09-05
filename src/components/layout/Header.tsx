@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { LanguageSwitcher } from './LanguageSwitcher.tsx';
-import { LogoSelector } from './LogoSelector.tsx';
-import './Header.css';
+import { LanguageSwitcher } from '../ui/LanguageSwitcher';
+import { LogoSelector } from '../ui/LogoSelector';
+import './../../styles/components/Header.css';
 
 export const Header: React.FC = () => {
   const { t } = useTranslation();
