@@ -71,5 +71,8 @@
   },
   "footer": {
     "clients": "Our Clients"
+  },
+  "clients": {
+    "subtitle": "We are proud to partner with leading global entertainment companies"
   }
 }

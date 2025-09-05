@@ -75,6 +75,7 @@ export const Home: React.FC = () => {
       <section className="clients-section">
         <div className="container">
           <h2>{t('footer.clients')}</h2>
+          <p className="clients-subtitle">{t('clients.subtitle')}</p>
           <div className="clients-banner">
             <div className="clients-scroll">
               {[...clients, ...clients].map((client, index) => (
