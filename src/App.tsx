@@ -1,5 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout.tsx';
+import { LanguageURLHandler } from './components/LanguageURLHandler.tsx';
 import { Home } from './pages/Home.tsx';
 import { About } from './pages/About.tsx';
 import { Services } from './pages/Services.tsx';
@@ -11,6 +12,7 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <LanguageURLHandler />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

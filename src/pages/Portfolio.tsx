@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SEOHead } from '../components/SEOHead';
 import './Portfolio.css';
 
 export const Portfolio: React.FC = () => {
@@ -48,6 +49,7 @@ export const Portfolio: React.FC = () => {
 
   return (
     <div className="portfolio">
+      <SEOHead page="portfolio" />
       <div className="container">
         <section className="page-header">
           <h1>{t('portfolio.title')}</h1>

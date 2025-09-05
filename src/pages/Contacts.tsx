@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SEOHead } from '../components/SEOHead';
 import './Contacts.css';
 
 export const Contacts: React.FC = () => {
@@ -7,6 +8,7 @@ export const Contacts: React.FC = () => {
 
   return (
     <div className="contacts">
+      <SEOHead page="contacts" />
       <div className="container">
         <section className="page-header">
           <h1>{t('contacts.title')}</h1>

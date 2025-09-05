@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { SEOHead } from '../components/SEOHead';
 import './Home.css';
 
 export const Home: React.FC = () => {
@@ -8,6 +9,7 @@ export const Home: React.FC = () => {
 
   return (
     <div className="home">
+      <SEOHead page="home" />
       <section className="hero">
         <div className="container">
           <div className="hero-content">

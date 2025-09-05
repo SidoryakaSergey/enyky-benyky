@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SEOHead } from '../components/SEOHead';
 import './CelebrityDubbing.css';
 
 export const CelebrityDubbing: React.FC = () => {
@@ -25,6 +26,7 @@ export const CelebrityDubbing: React.FC = () => {
 
   return (
     <div className="celebrity-dubbing">
+      <SEOHead page="celebrity" />
       <div className="container">
         <section className="page-header">
           <h1>{t('celebrity.title')}</h1>
