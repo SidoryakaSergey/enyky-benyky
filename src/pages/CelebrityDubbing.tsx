@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEOHead } from '../components/seo/SEOHead';
 import './/../styles/pages/CelebrityDubbing.css';
@@ -83,9 +84,9 @@ export const CelebrityDubbing: React.FC = () => {
               We have connections with virtually any Ukrainian show business
               representative
             </p>
-            <a href="/contacts" className="cta-button">
+            <Link to="/contacts" className="cta-button">
               Get in Touch
-            </a>
+            </Link>
           </div>
         </section>
       </div>

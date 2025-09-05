@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEOHead } from '../components/seo/SEOHead';
 import './/../styles/pages/Portfolio.css';
@@ -116,9 +117,9 @@ export const Portfolio: React.FC = () => {
           <div className="cta-content">
             <h2>Impressed by our work?</h2>
             <p>Let's discuss your next project</p>
-            <a href="/contacts" className="cta-button">
+            <Link to="/contacts" className="cta-button">
               Start Your Project
-            </a>
+            </Link>
           </div>
         </section>
       </div>

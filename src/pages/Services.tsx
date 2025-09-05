@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEOHead } from '../components/seo/SEOHead';
 import './/../styles/pages/Services.css';
@@ -64,9 +65,9 @@ export const Services: React.FC = () => {
           <div className="cta-content">
             <h2>Ready to get started?</h2>
             <p>Contact us to discuss your project and get a quote</p>
-            <a href="/contacts" className="cta-button">
+            <Link to="/contacts" className="cta-button">
               {t('nav.contacts')}
-            </a>
+            </Link>
           </div>
         </section>
       </div>
