@@ -58,12 +58,14 @@ src/
 ## 🎯 Benefits of This Structure
 
 ### 1. **Component Organization**
+
 - **Layout**: Header, Footer, Layout components
 - **UI**: Interactive components like LanguageSwitcher, LogoSelector
 - **SEO**: SEO-related components (SEOHead, LanguageURLHandler)
 - **Common**: Shared components (future additions)
 
 ### 2. **Import Simplification**
+
 ```typescript
 // Before (old structure)
 import { Header } from './components/Header.tsx';
@@ -78,11 +80,13 @@ import { Header, Footer, SEOHead } from './components';
 ```
 
 ### 3. **Style Organization**
+
 - All component styles in `src/styles/components/`
 - All page styles in `src/styles/pages/`
 - Global styles and CSS variables in `src/styles/globals.css`
 
 ### 4. **Scalability**
+
 - Easy to add new components in appropriate categories
 - Clear separation of concerns
 - Consistent import patterns
@@ -108,6 +112,7 @@ This allows for clean imports throughout the application.
 ## 🎨 Global Styles
 
 The `src/styles/globals.css` file contains:
+
 - CSS custom properties (variables) for consistent theming
 - Utility classes for common styling patterns
 - Base reset and typography styles
@@ -115,12 +120,14 @@ The `src/styles/globals.css` file contains:
 ## 🔧 Usage Examples
 
 ### Adding a New Component
+
 1. Create the component in the appropriate category folder
 2. Add the component's CSS to the corresponding styles folder
 3. Export the component in the category's `index.ts`
 4. The component is automatically available through the main components index
 
 ### Adding a New Page
+
 1. Create the page component in `src/pages/`
 2. Create the page's CSS in `src/styles/pages/`
 3. Add the export to `src/pages/index.ts`

@@ -7,6 +7,21 @@ import './/../styles/pages/Home.css';
 export const Home: React.FC = () => {
   const { t } = useTranslation();
 
+  const clients = [
+    'BBC Worldwide',
+    'Technicolor',
+    'UIP',
+    'Fox',
+    'DreamWorks',
+    'SVT',
+    'Nickelodeon',
+    'TV4',
+    'Warner Bros',
+    'NBCUniversal',
+    'Nordisk Film',
+    'Entertainment One',
+  ];
+
   return (
     <div className="home">
       <SEOHead page="home" />
@@ -53,6 +68,21 @@ export const Home: React.FC = () => {
             <Link to="/services" className="cta-button">
               {t('home.readMore')}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="clients-section">
+        <div className="container">
+          <h2>{t('footer.clients')}</h2>
+          <div className="clients-banner">
+            <div className="clients-scroll">
+              {[...clients, ...clients].map((client, index) => (
+                <div key={index} className="client-logo">
+                  {client}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

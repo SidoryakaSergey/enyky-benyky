@@ -130,6 +130,56 @@
   line-height: 1.6;
 }
 
+/* Clients Section */
+.clients-section {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.clients-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #ecf0f1;
+  background: none;
+  -webkit-text-fill-color: initial;
+}
+
+.clients-banner {
+  overflow: hidden;
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.clients-scroll {
+  display: flex;
+  animation: clientsScroll 30s linear infinite;
+  gap: 2rem;
+}
+
+.client-logo {
+  flex-shrink: 0;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-weight: 600;
+  color: #ecf0f1;
+  white-space: nowrap;
+}
+
+@keyframes clientsScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .hero .container {
@@ -148,5 +198,15 @@
 
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .clients-scroll {
+    animation-duration: 20s;
+    gap: 1rem;
+  }
+
+  .client-logo {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
   }
 }
